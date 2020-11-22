@@ -1,3 +1,7 @@
+# pastikan node tersedia 
+
+npm install
+
 # enable this API 
 Cloud Run Admin API
 
