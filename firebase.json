@@ -1,16 +1,16 @@
 {
-    "hosting":{
-    "public":"static",
-    "ignore":[
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-    ],
-    "rewrites":[{
-        "source":"**",
-        "run":{
-            "serviceId":"fire-cloudrun"
-        }
-    }]
- }
+  "hosting":{
+  "public":"static",
+  "ignore":[
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+  ],
+  "rewrites":[{
+      "source":"**",
+      "run":{
+          "serviceId":"cloudrun-fire"
+      }
+  }]
+}
 }
