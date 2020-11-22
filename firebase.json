@@ -9,7 +9,7 @@
     "rewrites":[{
         "source":"**",
         "run":{
-            "serviceId":"cloudrunfire"
+            "serviceId":"fire-cloudrun"
         }
     }]
  }
